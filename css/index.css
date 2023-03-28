@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  height: 100px;
+  background-color: #f0cece;
+  line-height: 100px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.main {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 50px;
+}
+
+.input-group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between
+}
+
+.main input {
+  width: 500px;
+  padding-left: 10px;
+  height: 40px;
+  background-color: #f1f6fb;
+  border-radius: 13px;
+  font-size: 20px;
+  /* border: none; */
+  border: 1px solid #d1d0d0;
+}
+
+input:focus {
+  outline: none;
+}
+
+.main .addTodo {
+  padding: 5px 30px;
+  background-color: rgb(25, 184, 238);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
+li {
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid #f0cece;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-box button {
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+}
+.img-box{
+  width: 550px;
+  height: 300px;
+  margin: 0 auto;
+}
+.img-box img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
