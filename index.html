@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <script src="./js/vue.js"></script>
+  <script src="js/vue.js"></script>
   <link rel="stylesheet" href="./css/index.css">
 </head>
 
@@ -41,7 +41,7 @@
       el: "#app",
       data: {
         todoValue: "",
-        todos: JSON.parse(localStorage.getItem('todo'))
+        todos: JSON.parse(localStorage.getItem('todo')) || [],
       },
       methods: {
         addTodo() {
@@ -57,7 +57,6 @@
             this.todos.splice(this.todoValue.indexOf(id))
             localStorage.setItem("todo", JSON.stringify(this.todos))
           }
-          console.log();
         }
       }
     })
