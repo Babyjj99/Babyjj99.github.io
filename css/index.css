@@ -127,6 +127,10 @@ li:last-child {
   justify-content: space-between;
   align-items: center;
 }
+.footer-left{
+  display: flex;
+  align-items: center;
+}
 
 /* 多选框样式 */
   .checkbox-wrapper-15 .cbx {
